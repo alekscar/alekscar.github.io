@@ -40,6 +40,17 @@ background: red;
 height: 400px;
 margin-left: 150px;
 border: 5px solid yellow;
-
-
+}
+}
+.section_px{
+margin-right: 400px;
+}
+.mater{
+color: orange;
+}
+table{
+ width: 100%;
+}
+.prava{
+text-align: center;
 }
