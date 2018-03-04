@@ -1,56 +1,45 @@
 body{
-background:grey;
-color: white;
+background: Cornsilk;
+color:white;
 }
-.main_content{
-background: yellow;
-color: black;
-margin-left: 300px;
+.mine{
+width: 1000px;
+height: 500px;
 }
-.main_aside{
-background: blue;
-float:left;
-width: 300px;
+.head{
+background: DarkSlateGray;
+height: 50px;
+display: block;
+
 }
 .content{
-background: purple;
-margin-right: 25%;
-}
-.aside{
-background: green;
-float:right;
-width: 25%;
-}
-.container{
-width: 900px;
-background: black;
-height: 500px;
-margin: 0 auto;
-}
-.aside_a{
-width: 140px;
-background:green;
+background: Silver;
 height: 400px;
-border: 5px solid yellow;
-float:left;
+width: 700px;
+margin:0 auto;
+display: inline-block;
+font-size: 18px;
+color: maroon;
 }
-.content_a{
-width: 740px;
-background: red;
+.menu{
+width: 150px;
+background: DimGray;
 height: 400px;
-margin-left: 150px;
-border: 5px solid yellow;
+float: left;
+
 }
-}
-.section_px{
-margin-right: 400px;
-}
-.mater{
-color: orange;
-}
-table{
- width: 100%;
-}
-.prava{
+.ad{
+width: 150px;
+background: white;
+height: 400px;
+color: black;
 text-align: center;
+float: right;
+}
+a{
+	color:gold;
+}
+.liter{
+text-align: center;
+font-size: 40px;
 }
