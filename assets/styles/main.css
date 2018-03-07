@@ -1,42 +1,123 @@
 body{
-background-color: aqua;
 text-align: center;
 font-size: 1.5em;
 }
 .container{
-width: 1000px;
-margin: 0 auto;
+	width: 100%;
+	height: 65px;
+	background-color:yellow;
+	margin: 0 auto;
 }
-.aside_left{
-width: 80px;
-float: left;
-background-color: gold;
+.row{
+	box-sizing: border-box;
+	width: 75%;
+	height: 59px;
+	border: solid 3px green;
+	margin: 0 auto;
 }
-.aside_right{
-width: 200px;
+.column1{
+	box-sizing: border-box;
+	float: left;
+	border:2px solid black;
+	width: 45%;
+	height: 35px;
+	margin-top: 10px;
+	box-sizing: border-box
+}
+.column2{
+	box-sizing: border-box;
+	float: right;
+	border:2px solid black;
+	width: 45%;
+	height: 35px;	
+	margin-top: 10px;
+	box-sizing: border-box
+}
+hr{
+	visibility: hidden;
+}
+.column3{
+	float: right;
+	background-color: red;
+	width: 33%;
+	height: 35px;	
+	margin-top: 10px;
+	box-sizing: border-box;
+	border: 3px solid blue;
+}
+.column4{
+	float: left;
+	background-color: red;
+	width: 33%;
+	height: 35px;	
+	margin-top: 10px;
+	box-sizing: border-box;
+	border: 3px solid blue;
+}
+.column5{
+	background-color: red;
+	width: 33%;
+	height: 35px;	
+	margin-top: 10px;
+	margin-right: 33%;
+	margin-left: 33.5%;
+	box-sizing: border-box;
+	border: 3px solid blue;
+
+}
+.column6,
+.column7,
+.column8,
+.column9{
+	box-sizing: border-box;
+	height: 35px;
+	width: 25%;
+	background-color: black;
+	margin-top: 10px;
+	border: 3px solid purple;
+}
+.column6{
 float: right;
-background-color: lime;
 }
-.content{
-background-color: blue;
-margin-right: 200px;
-margin-left: 80px;
+.column7{
+float: right;
 }
-.header{
-height: 150px;
-background-color: SteelBlue;
+.column8{
+float:left;
 }
-.footer{
-height: 50px;
-background-color: DodgerBlue;
+.column9{
+float:left;
 }
-.content,
-.aside_left,
-.aside_right{
-height: 300px;
+.column10,
+.column11,
+.column12,
+.column13,
+.column14,
+.column15{
+		box-sizing: border-box;
+	height: 35px;
+	width: 14%;
+	background-color: red;
+	margin-top: 10px;
+	border: 3px solid black;
+	margin-left: 1%;
+	margin-right: 1%;
 }
-.header,
-.footer{
-width: 1000px;
-margin: 0 auto;
+.column10{
+float: right;
+}
+.column11{
+	float: right;
+}
+.column12{
+	float: right;
+}
+.column13{
+float: left;
+}
+.column14{
+float: left
+}
+.column15{
+float: left
 }
