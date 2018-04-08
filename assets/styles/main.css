@@ -1,12 +1,16 @@
+@font-face{
+	font-family:beermoney;
+	url(assets/fonts/beermoney/beermoney.css)
+}
 html{
 	height: 100%;
 }
 h1{
-		font-family: 'Lobster', cursive;
+		font-family: 'beermoney', cursive;
 		margin: 0 auto;
 }
 body{
-	font-family: 'Lobster', cursive;
+	font-family: 'beermoney', cursive;
 	font-size: 1.5em;
 	background-color: #ffa77a;
 	margin:0;
