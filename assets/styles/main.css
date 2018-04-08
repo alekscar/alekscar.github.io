@@ -1,7 +1,12 @@
 html{
 	height: 100%;
 }
+h1{
+		font-family: 'Lobster', cursive;
+		margin: 0 auto;
+}
 body{
+	font-family: 'Lobster', cursive;
 	font-size: 1.5em;
 	background-color: #ffa77a;
 	margin:0;
